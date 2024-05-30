@@ -1,0 +1,66 @@
+,::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(225, 193, 154);
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    height: 110px;
+    background-color: rgb(89, 53, 9);
+}
+.logo{
+    width: 110px;
+    margin: 0 20px;
+}
+.judul{
+    color: #fadbc0cf;
+}
+.judul-1{
+    font-size: 45px;
+    font-family:"Seymour One", sans-serif ;
+    font-weight: 800;
+}
+.judul-2{
+    font-size: 20px;
+    font-family:"Seymour One", sans-serif ;
+    font-weight: 560;
+}
+.image-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-1 {
+    width: 10%;
+    height: 300px;
+}
+.img-2 {
+    width: 30%;
+    height: 300px;
+}
+.img-3 {
+    width: 40%;
+    height: 300px;
+}
+.img-4 {
+    width: 10%;
+    height: 300px;
+}
+
+.text {
+    font-family: "Work Sans", sans-serif;
+    color: #381b02cf;
+}
